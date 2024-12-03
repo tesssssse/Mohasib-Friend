@@ -724,7 +724,7 @@ function initializeApp() {
     
             const payload = {
                 customerProfileId, // استخدام customerProfileId بدل userId
-                returnUrl: " https://tesssssse.github.io/Mohasib-Friend/home.html", // تأكد من تحديث هذا الرابط حسب الحاجة
+                returnUrl: "https://tesssssse.github.io/Mohasib-Friend/home.html", // تأكد من تحديث هذا الرابط حسب الحاجة
             };
     
             // استدعاء API لإنشاء رابط الدفع
