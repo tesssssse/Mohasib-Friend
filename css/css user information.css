@@ -248,8 +248,9 @@ html::-webkit-scrollbar-thumb:hover {
     .profile-table td {
         color: #2d3748;
         font-size: 12px !important;
-        max-width: 200px;
-       
+        width: 300px;
+        word-wrap: break-word !important; /* للسماح بالتفاف الكلمات الطويلة */
+        overflow-wrap: break-word !important;
     }
 
     #togglePassword{
